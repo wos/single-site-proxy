@@ -1,0 +1,5 @@
+[proxy]
+port:8000 # port which will be served by proxy
+baseUrl: http://example.com # base site's url
+torUrl: http://example.onion # tor url - proxy will fall back to it if base address will be unreacheable
+
